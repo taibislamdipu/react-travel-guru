@@ -3,6 +3,8 @@ import { Button, Card, Col, Container, Row } from 'react-bootstrap';
 import './Home.css';
 
 import sajek from '../../images/sajek.png';
+import sreemongol from '../../images/sreemongol.png';
+import sundorbon from '../../images/sundorbon.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -18,12 +20,17 @@ const Home = () => {
                     <div class=" col-md-2 card-body">
                         <img src={sajek} class="card-img-top" alt="..."></img>
                         {/* <h5 class="card-title">Card title</h5> */}
-                        <button className="bg-warning rounded-lg"><Link to="/booking">Go</Link></button>
+                        <button className="bg-warning rounded-lg"><Link to="/booking">Go Sajek</Link></button>
                     </div>
                     <div class=" col-md-2 card-body">
-                        <img src={sajek} class="card-img-top" alt="..."></img>
+                        <img src={sreemongol} class="card-img-top" alt="..."></img>
                         {/* <h5 class="card-title">Card title</h5> */}
-                        <button className="bg-warning rounded-lg"><Link to="/booking">Go</Link></button>
+                        <button className="bg-warning rounded-lg"><Link to="/booking">Go Sreemongol</Link></button>
+                    </div>
+                    <div class=" col-md-2 card-body">
+                        <img src={sundorbon} class="card-img-top" alt="..."></img>
+                        {/* <h5 class="card-title">Card title</h5> */}
+                        <button className="bg-warning rounded-lg"><Link to="/booking">Go Sundorbon</Link></button>
                     </div>
 
 
